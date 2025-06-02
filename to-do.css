@@ -159,3 +159,44 @@ ul li.checked::before {
 .header{
     background: linear-gradient(to right, #667eea, #764ba2);
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 600px) {
+    .todo-container {
+        width: 90%;
+        max-width: none;
+        margin: 10px;
+    }
+
+    .header {
+        padding: 20px 15px;
+        font-size: 20px;
+    }
+
+    input {
+        width: 77%;
+        float: none;
+        margin-bottom: 10px;
+        font-size: 16px;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+
+    .addBtn {
+        float: none;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    ul li {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .deleteBtn {
+        padding: 5px 8px;
+        font-size: 12px;
+        top: 8px;
+        right: 10px;
+    }
+}
